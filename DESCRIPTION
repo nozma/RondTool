@@ -2,8 +2,8 @@ Package: RondTool
 Type: Package
 Title: Read and Handle Data Logger(Ondotori, T&D) Data
 Version: 0.1.0
-Authors@R: person("R.", "Ito", email = "rito1213[at]gmail.com",
-                  role = c("aut", "cre"))
+Authors@R: person("R.", "Ito", email = "rito1213@gmail.com",
+    role = c("aut", "cre"))
 Description: Read and plot the temperature and humidity data recorded by the data logger.
     Furthermore, calculate convenient values such as saturation.
 Depends: R (>= 3.3.2)
