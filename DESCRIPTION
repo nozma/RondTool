@@ -1,0 +1,12 @@
+Package: RondTool
+Type: Package
+Title: Read and Handle Data Logger(Ondotori, T&D) Data.
+Version: 0.1.0
+Author: R. Ito
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Read and plot the temperature and humidity data recorded by the data logger.
+  Furthermore, calculate convenient values such as saturation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
