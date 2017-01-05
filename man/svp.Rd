@@ -2,17 +2,24 @@
 % Please edit documentation in R/trans_value.R
 \name{svp}
 \alias{svp}
-\title{セ氏気温から飽和水蒸気圧を計算する。式はAdduchov and Eskridge(1996)による。}
+\title{セ氏気温から飽和水蒸気圧を計算する。}
 \usage{
 svp(t)
 }
 \arguments{
-\item{t}{気温（セルシウス度）}
+\item{t}{気温(セルシウス度)}
 }
 \value{
-飽和水蒸気圧（Pa）
+飽和水蒸気圧(hPa)
 }
 \description{
-セ氏気温から飽和水蒸気圧を計算する。式はAdduchov and Eskridge(1996)による。
+引数として与えられたセ氏温度に対応する飽和水蒸気圧を計算する。
+計算式はAdduchov and Eskridge(1996)による。
+通常、飽和水蒸気圧は氷上であるか水面上であるかで異なるが、
+この関数では単にセ氏温度が0度以下であるか否かで判断している。
+}
+\examples{
+svp(0)
+svp(100)
 }
 
