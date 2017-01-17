@@ -46,6 +46,7 @@ read_ocsv_rh <- function(fname){
 #' \item{day}{Date形式の日付。}
 #' \item{temp}{気温(C)}
 #'@export
+#'@import dplyr
 read_ocsv_s <- function(fname){
   # おんどとりから出力のカンマ区切り形式テキストファイルの読み込み
   # 温度のみ1chのデータ対象
