@@ -16,6 +16,7 @@
 #' \item{vpd}{飽差(VPD, hPa)}
 #' \item{w.dif}{飽差(HD, g/m^3)}
 #'@export
+#'@import dplyr
 read_ocsv_rh <- function(fname){
   # おんどとりから出力のカンマ区切り形式テキストファイルの読み込み
   # 温度・湿度の2chデータ対象
