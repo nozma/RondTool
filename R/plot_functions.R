@@ -45,7 +45,7 @@ ondo.summarized.plot <- function(ondo, start=range(ondo$day)[1], end=range(ondo$
 #'@param end 集計の終了日。指定方法はstartと同様。
 #'@export
 #'@import ggplot2 dplyr tidyr
-ondo.raw.plot <- function(ondo, start, end){
+ondo.raw.plot <- function(ondo, start=range(ondo$day)[1], end=range(ondo$day)[2]){
   # macの場合は日本語フォントを設定する
   if(Sys.info()["sysname"] == "Darwin"){
     fname = "Osaka-Mono"

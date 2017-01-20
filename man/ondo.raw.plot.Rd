@@ -4,7 +4,7 @@
 \alias{ondo.raw.plot}
 \title{温湿度・飽差の時系列データを1日毎にプロットする}
 \usage{
-ondo.raw.plot(ondo, start, end)
+ondo.raw.plot(ondo, start = range(ondo$day)[1], end = range(ondo$day)[2])
 }
 \arguments{
 \item{ondo}{\code{\link{read_ocsv_rh}}で読み込んだデータフレーム。}
